@@ -41,4 +41,5 @@ func RunWorkers(numWorkers int, numJobs int) {
 	close(jobs)
 
 	wg.Wait()
+	fmt.Println("All jobs have been processed.")
 }
