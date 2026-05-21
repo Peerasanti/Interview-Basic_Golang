@@ -168,10 +168,4 @@ Response:
 go test ./... -v
 ```
 
-ตรวจสอบ Race Condition:
-
-```bash
-go test ./... -race -v
-```
-
 ---
